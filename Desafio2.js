@@ -1,4 +1,3 @@
-
 // Função que calcula o nível de um jogador com base nas vitórias e derrotas
 function calcularNivel(vitorias, derrotas) {
   // Calculando o saldo de Ranqueadas
@@ -23,11 +22,11 @@ function calcularNivel(vitorias, derrotas) {
     nivel = "Imortal";
   }
 
-  // Exibindo a mensagem de saída
+  // Mensagem de saída
   console.log(`O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`);
 }
 
-// Exemplo de uso da função
-calcularNivel(120, 110); // Substitua os valores de vitórias e derrotas pelos valores desejados
+// Substitua os valores de vitórias e derrotas pelos valores desejados
+calcularNivel(120, 110); 
 
 
